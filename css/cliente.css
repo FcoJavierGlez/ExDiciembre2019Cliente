@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+    min-height: 12vh;
+}
+
+header>h2 {
+    text-align: center;
+    margin: 0;
+}
+
+header>h3 {
+    text-align: right;
+    margin: 0;
+}
+
+nav {
+    min-height: 8vh;
+}
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    min-height: 62vh;
+}
+
+main {
+    padding: 25px;
+}
+
+aside {
+
+}
+
+footer {
+    background-color: silver;
+    padding: 10px;
+    min-height: 10vh;
+}
+
+.boton {
+    width: 50px;
+    height: 40px;
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 1px solid darkred;
+}
+
+.valido {
+    background-color: rgba(0, 255, 13, 0.5);
+    border: 1px solid darkgreen;
+}
